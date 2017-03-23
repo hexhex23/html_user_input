@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>**General Assembly Account Creation**</title>
+</head>
+
+<body>
+    <img src="general_assembly_logo.png" alt="General Assembly Logo">
+    <h1>General Assembly Account Creation</h1>
+    <p>Welcome to the General Assembly. General Assembly is a global institution training people all over the world in today's top technologies.
+    </p>
+    <p>Please fill out the information below to create your General Assembly account. Let us know what city you're in and what course you're taking. This list is for all students. Please tell us what city you're in and whether you're taking the Immersive
+        User Experience (UX) course or the Immersive Web Development course.</p>
+    <form class="form1" action="success.html" method="get">
+        City: <select name="userCity">
+    <option value="Hong Kong">Hong Kong</option>
+    <option value="London">London</option>
+    <option value="Los Angeles">Los Angeles</option>
+    <option value="New York">New York</option>
+    <option value="Portland">Portland</option>
+    <option value="San Francisco">San Francisco</option>
+    <option value="Seattle">Seattle</option>
+    <option value="Singapore">Singapore</option>
+  </select>
+        <br><br>
+        <label for "course">Course:</label>
+        <input type="radio" name="course" value="UX">UX
+        <input type="radio" name="course" value="Web Dev" checked>Web Dev<br>
+        <p>Name: <input type="text" id="Name"></p>
+        <p>Email: <input type="text" id="Email"></p>
+        <p>Password: <input type="password" id="Password"></p>
+        <br>
+        <input type="checkbox" id="subscribe" value="subscribe" checked>
+        <label for="subscribe">Yes, subscribe me to the General Assembly student newsletter</label>
+        <p>
+            <input type="submit" value="submit">
+        </p>
+    </form>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
